@@ -1,0 +1,34 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+  }
+  
+  li:hover {
+    background: #e0e0e0;
+  }
+  
+  button {
+    background: #8111c8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #b347f6;
+  }
+  

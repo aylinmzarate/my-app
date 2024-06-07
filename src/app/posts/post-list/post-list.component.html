@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let post of posts">
+      <h2>{{post.title}}</h2>
+      <button (click)="viewDetails(post.id)">View Details</button>
+    </li>
+  </ul>
+  

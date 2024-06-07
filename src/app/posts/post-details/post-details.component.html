@@ -1,0 +1,9 @@
+<div *ngIf="post">
+    <h2>{{post.title}}</h2>
+    <div *ngIf="post.imageUrl">
+      <img [src]="post.imageUrl" alt="Post Image" style="max-width: 100%; border-radius: 5px;">
+    <p *ngIf="post.description">{{post.description}}</p>
+    </div>
+    
+  </div>
+  

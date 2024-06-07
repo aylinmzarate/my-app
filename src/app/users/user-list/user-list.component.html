@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let user of users">
+    {{user.id}}° {{user.name}}
+    <button (click)="viewDetails(user.id)">View Details</button>
+  </li>
+</ul>
